@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="CityTrail.csproj" />
+  <Folder Name="/Elementos de la solución/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="CityTrail.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>
